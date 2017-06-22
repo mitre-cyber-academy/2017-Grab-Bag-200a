@@ -8,4 +8,4 @@ I used this link for reference
 https://stackoverflow.com/questions/10357992/how-to-generate-audio-from-a-numpy-array
 I modified the code a bit and tweaked it until I got sound and then changed the numbers until I could hear the audio
 
-flag is MCA{au1g77qpz1xm}
+flag is MCA{audio_is_fun_sometimes}

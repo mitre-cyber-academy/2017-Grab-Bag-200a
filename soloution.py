@@ -1,7 +1,7 @@
 import numpy as np
 import sounddevice as sd
 
-sd.default.samplerate = 2700
+sd.default.samplerate = 2500
 
 time = 2.0
 frequency = 440
@@ -10,7 +10,7 @@ f = open('s_data.txt', 'r')
 x = f.readlines()
 x = map(lambda s: s.strip(), x)
 for i in range(len(x)):
-    x[i] = int(x[i])*500
+    x[i] = int(x[i])*50
 data = x
 
 # Generate time of samples between 0 and two seconds
